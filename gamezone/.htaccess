@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config\.php|config\.example\.php|installer-key\.php|install\.lock|\.install-running|schema\.sql|repair-products\.sql|upgrade-regions\.sql|README\.md)$">
+  Require all denied
+</FilesMatch>
